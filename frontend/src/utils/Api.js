@@ -185,7 +185,7 @@ class Api {
     // другие методы работы с API
   }
   export const api = new Api({
-    baseUrl: 'http://api.cyberfalcon.mesto.nomoredomains.work',
+    baseUrl: 'https://api.cyberfalcon.mesto.nomoredomains.work',
     headers: {
       authorization: '0839fc91-5c24-4c8c-bd73-be06bd5275c1',
       'Content-Type': 'application/json'

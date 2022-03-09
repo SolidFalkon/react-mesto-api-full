@@ -17,16 +17,15 @@ module.exports = (req, res, next) => {
 
   try {
     payload = jwt.verify(token, JWT_SECRET);
-    next(new loginError('\x1b[31m%s\x1b[0m', `
+    next(new loginError(`
     Надо исправить. В продакшне используется тот же
     секретный ключ, что и в режиме разработки.
     `));
   } catch (err) {
     if (err.name === 'JsonWebTokenError' && err.message === 'invalid signature') {
-      next(new loginError('\x1b[32m%s\x1b[0m', 'Всё в порядке. Секретные ключи отличаются'));
+      next(new loginError('Всё в порядке. Секретные ключи отличаются'));
     } else {
       next(new loginError(
-        '\x1b[33m%s\x1b[0m',
         'Что-то не так',
         err,
       ));

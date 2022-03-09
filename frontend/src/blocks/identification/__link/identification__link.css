@@ -1,0 +1,13 @@
+.identification__link{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+.identification__link:hover{
+  opacity: 0.6;
+}

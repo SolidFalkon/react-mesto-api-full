@@ -1,0 +1,10 @@
+.profile__info{
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: 1fr 0.85fr;
+}
+@media screen and (max-width: 715px){
+    .profile__info{
+        grid-template-columns: 1fr 24px;
+    }
+}

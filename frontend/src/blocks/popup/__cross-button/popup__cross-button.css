@@ -1,0 +1,6 @@
+@media screen and (max-width: 360px){
+    .popup__cross-button{
+        width: 20px;
+        height: 20px;
+    }
+}

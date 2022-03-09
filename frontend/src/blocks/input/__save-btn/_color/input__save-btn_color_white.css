@@ -1,0 +1,9 @@
+.input__save-btn_color_white{
+  background: #FFFFFF;
+  color: #000000;
+  margin-top: 216px;
+  margin-bottom: 15px;
+}
+.input__save-btn_color_white:hover{
+  opacity: 0.85;
+}

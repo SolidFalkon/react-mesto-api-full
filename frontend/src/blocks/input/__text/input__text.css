@@ -1,0 +1,15 @@
+.input__text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    max-width: 358px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(00,00,00,0.2);
+    padding-bottom: 13px;
+    outline: none;
+}
+.input__text:first-child{
+    margin-top: 0;
+}

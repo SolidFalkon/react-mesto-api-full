@@ -1,0 +1,11 @@
+.identification__form{
+  margin-top: 50px;
+  max-width: 358px;
+  width: 100%;
+}
+@media screen and (max-width: 600px){
+  .identification__form{
+      width: 85%;
+      margin-top: 75px;
+  }
+}

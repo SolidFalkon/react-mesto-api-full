@@ -1,0 +1,8 @@
+.input__text_color_white{
+  color: #cccccc;
+  border-bottom: 2px solid #cccccc;
+  background-color: black;
+  margin-top: 30px;
+}
+
+.input__text_color_white::placeholder {color: #cccccc;}
